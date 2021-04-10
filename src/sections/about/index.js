@@ -37,12 +37,12 @@ class Hero extends React.Component {
                                 <h4>My Skills</h4>
                             </div>
                             <div className="skills-container">
-                                <Progress name="Web Design" value={90} delay={1100} />
-                                <Progress name="Angular" value={50} delay={1100} />
-                                <Progress name="React" value={80} delay={1100} />
-                                <Progress name="Vue" value={40} delay={1100} />
-                                <Progress name="MongoDB" value={100} delay={1100} />
-                                <Progress name="CSS" value={50} delay={1100} />
+                                <Progress name="Javascript" value={80} delay={1100} />
+                                <Progress name="GraphQL" value={60} delay={1100} />
+                                <Progress name="React" value={85} delay={1100} />
+                                <Progress name="Bootstrap" value={80} delay={1100} />
+                                <Progress name="SCSS" value={75} delay={1100} />
+                                <Progress name="CSS" value={80} delay={1100} />
                             </div>
                     </Col>
                 </Row>
