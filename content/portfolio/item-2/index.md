@@ -1,6 +1,6 @@
 ---
 id: 2
-image: './image.jpg'
-title: "Front-end Project"
+image: './house.png'
+title: " House It Full Stack Project"
 category: "React.js"
 ---

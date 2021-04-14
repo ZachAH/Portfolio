@@ -1,6 +1,6 @@
 ---
 id: 3
 image: './image.jpg'
-title: "Angular Project"
-category: "Angular.js"
+title: " Just Plant It Full Stack Project"
+category: "Javascript"
 ---

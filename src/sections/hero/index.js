@@ -29,7 +29,6 @@ class Hero extends React.Component {
                     'React Developer',
                     'MERN Stack Profficient',
                     'Front-End Specialist',
-                    'Musician',
                   ],
                   autoStart: true,
                   loop: true,
