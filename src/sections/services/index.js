@@ -3,13 +3,12 @@ import { Row, Col, Container } from 'react-bootstrap'
 import BaffleText from 'components/baffle-text'
 import AnimationContainer from 'components/animation-container'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact, faAngular, faAws } from '@fortawesome/free-brands-svg-icons'
+import { faReact, faJs, faGithub, faGoogle, faGit } from '@fortawesome/free-brands-svg-icons'
 import {
   faPencilRuler,
   faServer,
-  faRobot,
-  faSmileBeam,
-  faPizzaSlice,
+  faProjectDiagram,
+  faLaptopCode,
   faQuoteRight,
   faCode,
 } from '@fortawesome/free-solid-svg-icons'
@@ -92,41 +91,29 @@ class Services extends React.Component {
               </div>
               <h4>Front-end React</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi.
-                In et sem libero. Integer pretium, tellus eu pellentesque
-                tristique, ex libero maximus elit, mollis tristique urna eros
-                non tellus
+               Utilize React frameworks and JSX to build fast, user intuitive web applications.
               </p>
             </AnimationContainer>
           </Col>
           <Col md={4} className="service border-side">
             <AnimationContainer delay={400} animation="fadeInDown fast">
               <div className="icon">
-                <FontAwesomeIcon icon={faAngular} />
+                <FontAwesomeIcon icon={faGoogle} />
               </div>
-              <h4>Angular Web App</h4>
+              <h4>Firebase</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi.
-                In et sem libero. Integer pretium, tellus eu pellentesque
-                tristique, ex libero maximus elit, mollis tristique urna eros
-                non tellus
+                Use firebase for user authentication on web applications. Users on past websited can user their gmail account information or a different email outside of google
               </p>
             </AnimationContainer>
           </Col>
           <Col md={4} className="service">
             <AnimationContainer delay={600} animation="fadeInRight fast">
               <div className="icon">
-                <FontAwesomeIcon icon={faAws} />
+                <FontAwesomeIcon icon={faJs} />
               </div>
-              <h4>AWS Management</h4>
+              <h4>Javascript</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi.
-                In et sem libero. Integer pretium, tellus eu pellentesque
-                tristique, ex libero maximus elit, mollis tristique urna eros
-                non tellus
+                Using Javascript as my main langauge since I started in web development. I have grown very profficient in using it for everything from front-end only applications all the way to full stack projects.
               </p>
             </AnimationContainer>
           </Col>
@@ -137,11 +124,7 @@ class Services extends React.Component {
               </div>
               <h4>UI/UX Design</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi.
-                In et sem libero. Integer pretium, tellus eu pellentesque
-                tristique, ex libero maximus elit, mollis tristique urna eros
-                non tellus
+                Using my front and back-end langauges and technologies I have built applications with great UX and UI for users.
               </p>
             </AnimationContainer>
           </Col>
@@ -150,28 +133,22 @@ class Services extends React.Component {
               <div className="icon">
                 <FontAwesomeIcon icon={faServer} className="solid" />
               </div>
-              <h4>Linux Server Management</h4>
+              <h4>MongoDB</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi.
-                In et sem libero. Integer pretium, tellus eu pellentesque
-                tristique, ex libero maximus elit, mollis tristique urna eros
-                non tellus
+                Depoloyed numerous full stack applications using the noSql MongoDb. I have found that is was very easy to learn and the scalablity and reliabilty was a huge plus.
               </p>
             </AnimationContainer>
           </Col>
           <Col md={4} className="service">
             <AnimationContainer delay={1200} animation="fadeInRight fast">
               <div className="icon">
-                <FontAwesomeIcon icon={faRobot} className="solid" />
+                <FontAwesomeIcon icon={faProjectDiagram} className="solid" />
               </div>
-              <h4>Artifical Intelligence</h4>
+              <h4>GraphQL</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi.
-                In et sem libero. Integer pretium, tellus eu pellentesque
-                tristique, ex libero maximus elit, mollis tristique urna eros
-                non tellus
+                While using React for Front-end and GraphQL for backend on my full stack applications I have learned a great understanding on how and why GraphQL is one of my favorite back-end langauges. The queries, 
+                TypeDefs, and Resolvers graphQL uses are fun to learn and relativley easy to use.
+             
               </p>
             </AnimationContainer>
           </Col>
@@ -187,9 +164,9 @@ class Services extends React.Component {
           <Col md={3}>
             <AnimationContainer delay={100} animation="fadeIn fast">
               <Counter
-                icon={faSmileBeam}
-                value={100}
-                text="Happy Clients"
+                icon={faGithub}
+                value={40}
+                text="Github Repositories"
                 symbol="+"
                 duration={3}
               />
@@ -198,9 +175,9 @@ class Services extends React.Component {
           <Col md={3}>
             <AnimationContainer delay={100} animation="fadeIn fast">
               <Counter
-                icon={faPizzaSlice}
-                value={1000}
-                text="Pizzas Ordered"
+                icon={faLaptopCode}
+                value={25}
+                text="Langauges and Technologies Used"
                 symbol="+"
                 duration={3}
               />
@@ -210,8 +187,8 @@ class Services extends React.Component {
             <AnimationContainer delay={100} animation="fadeIn fast">
               <Counter
                 icon={faQuoteRight}
-                value={500}
-                text="Reviews"
+                value={40}
+                text="Reviews on Projects from Teachers and TA's"
                 symbol="+"
                 duration={3}
               />
