@@ -1,6 +1,6 @@
 ---
 id: 4
-image: './image.jpg'
-title: "Zoo-Keepers Digest"
+image: './trivia.png'
+title: "Brain Scratchers"
 category: "Javascript"
 ---

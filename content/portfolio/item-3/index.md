@@ -1,6 +1,6 @@
 ---
 id: 3
-image: './image.jpg'
+image: './planter.png'
 title: " Just Plant It Full Stack Project"
 category: "Javascript"
 ---
