@@ -34,7 +34,7 @@ class Hero extends React.Component {
                   loop: true,
                 }}
               />
-              <button className="hover-button">
+              <button role="button" href="resume.pdf" download="Zachs Resume" className="hover-button" >
                   <span>Download CV</span>
               </button>
             </div>
