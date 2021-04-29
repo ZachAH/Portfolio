@@ -1,0 +1,55 @@
+[debug] [2021-04-16T15:31:24.781Z] ----------------------------------------------------------------------
+[debug] [2021-04-16T15:31:24.783Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\etta1\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2021-04-16T15:31:24.783Z] CLI Version:   9.10.0
+[debug] [2021-04-16T15:31:24.783Z] Platform:      win32
+[debug] [2021-04-16T15:31:24.783Z] Node Version:  v14.15.0
+[debug] [2021-04-16T15:31:24.784Z] Time:          Fri Apr 16 2021 10:31:24 GMT-0500 (Central Daylight Time)
+[debug] [2021-04-16T15:31:24.784Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-04-16T15:31:24.791Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-16T15:31:24.791Z] > authorizing via signed-in user (etta1055@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2021-04-16T15:31:24.813Z] [hub] writing locator at C:\Users\etta1\AppData\Local\Temp\hub-zach-s-portfolio.json
+[debug] [2021-04-16T15:31:24.846Z] > refreshing access token with scopes: []
+[debug] [2021-04-16T15:31:24.846Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-04-16T15:31:25.086Z] <<< HTTP RESPONSE 200 {"date":"Fri, 16 Apr 2021 15:31:27 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-16T15:31:25.118Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/zach-s-portfolio/webApps/-/config [none]
+[debug] [2021-04-16T15:31:25.446Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/zach-s-portfolio/webApps/-/config 200
+[debug] [2021-04-16T15:31:25.446Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/zach-s-portfolio/webApps/-/config {"projectId":"zach-s-portfolio","storageBucket":"zach-s-portfolio.appspot.com","apiKey":"AIzaSyBqJ5K6j0EML4FQkx6h4t6OiEpRIlYuj4I","authDomain":"zach-s-portfolio.firebaseapp.com","messagingSenderId":"663993420731"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ localhost:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: None
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [16/Apr/2021:15:31:44 +0000] "GET / HTTP/1.1" 200 572 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Apr/2021:15:31:44 +0000] \"GET / HTTP/1.1\" 200 572 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [16/Apr/2021:15:31:44 +0000] "GET /socket.io/socket.io.js HTTP/1.1" 404 179439 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Apr/2021:15:31:44 +0000] \"GET /socket.io/socket.io.js HTTP/1.1\" 404 179439 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [16/Apr/2021:15:31:44 +0000] "GET /commons.js HTTP/1.1" 404 179439 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Apr/2021:15:31:44 +0000] \"GET /commons.js HTTP/1.1\" 404 179439 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36\""}}
+[debug] [2021-04-16T15:31:44.237Z] Error [ERR_STREAM_WRITE_AFTER_END]: write after end
+    at writeAfterEnd (_http_outgoing.js:668:15)
+    at write_ (_http_outgoing.js:680:5)
+    at ServerResponse.write (_http_outgoing.js:661:15)
+    at ReadStream.ondata (_stream_readable.js:719:22)
+    at ReadStream.emit (events.js:315:20)
+    at ReadStream.EventEmitter.emit (domain.js:486:12)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:284:9)
+    at ReadStream.Readable.push (_stream_readable.js:223:10)
+    at internal/fs/streams.js:226:14
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:539:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[info] i  hosting: 127.0.0.1 - - [16/Apr/2021:15:31:44 +0000] "GET /img/favicon.ico HTTP/1.1" 200 15406 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Apr/2021:15:31:44 +0000] \"GET /img/favicon.ico HTTP/1.1\" 200 15406 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36\""}}
