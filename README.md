@@ -30,11 +30,3 @@ This website is portfolio showcasing my projects and my skills I have learned th
 https://zhportfolio.netlify.app
 
 <br/>
-
-
-
-
-
-
-* App Created by:
-* Zach Howell - https://github.com/ZachAH
