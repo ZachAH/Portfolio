@@ -129,7 +129,7 @@ class Portfolio extends React.Component {
                   />
                   <Tilt className="Tilt" options={{ scale: 1, max: 50 }}>
                     <div className="overlay">
-                      <span className="title">
+                      <span className="title" onClick={() => window.open('https://github.com/ZachAH')}>
                         {value.content.frontmatter.title}
                       </span>
                     </div>

@@ -3,7 +3,7 @@ import Particles from 'react-particles-js';
 import Progress from 'components/progress'
 import { Row, Col } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin,  } from '@fortawesome/free-brands-svg-icons'
 import ThemeContext from '../../context'
 import './styles.scss'
 
@@ -26,9 +26,7 @@ class Hero extends React.Component {
                             <p>I recently graduated the certificate program from UWM Extended Campus. This was a full stack bootcamp utilizing the MERN stack. Immediately after graduation I started and completed a 60 hour react certificate course. I am currently enrolled in another course because, lets face it learning in web development never ends! I am trying to find my first career into web development which is proving to be as hard or even harder then the bootcamp itself(I know hard to believe..right?!)</p>
                             <div className="social social_icons">
                                 <FontAwesomeIcon icon={faGithub} className="social_icon" onClick={() => window.open('https://github.com/ZachAH')}/>
-                                <FontAwesomeIcon icon={faTwitter} className="social_icon" onClick={() => window.open('https://www.twitter.com')} />
-                                <FontAwesomeIcon icon={faYoutube} className="social_icon" onClick={() => window.open('https://www.youtube.com')} />
-                                <FontAwesomeIcon icon={faLinkedin} className="social_icon" onClick={() => window.open('https://www.linkedin.com')} />
+                                <FontAwesomeIcon icon={faLinkedin} className="social_icon" onClick={() => window.open('https://linkedin.com/in/zach-howell-189118210/')} />
                             </div>
                         </div>
                     </Col>
@@ -38,8 +36,8 @@ class Hero extends React.Component {
                             </div>
                             <div className="skills-container">
                                 <Progress name="Javascript" value={80} delay={1100} />
-                                <Progress name="GraphQL" value={60} delay={1100} />
-                                <Progress name="React" value={85} delay={1100} />
+                                <Progress name="GraphQL" value={70} delay={1100} />
+                                <Progress name="React" value={75} delay={1100} />
                                 <Progress name="Bootstrap" value={80} delay={1100} />
                                 <Progress name="SCSS" value={75} delay={1100} />
                                 <Progress name="CSS" value={80} delay={1100} />
