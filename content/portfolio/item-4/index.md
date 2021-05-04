@@ -2,5 +2,5 @@
 id: 4
 image: './trivia.png'
 title: "Brain Scratchers"
-category: "Javascript"
+category: "JS, Express, and Node.js"
 ---

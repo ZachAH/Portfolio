@@ -1,6 +1,6 @@
 ---
 id: 6
-image: './image.jpg'
-title: "Tic-Tac-Toe"
-category: "React.js"
+image: './image.png'
+title: "React-Tac-Toe"
+category: "React"
 ---

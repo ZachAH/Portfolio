@@ -165,7 +165,7 @@ class Services extends React.Component {
             <AnimationContainer delay={100} animation="fadeIn fast">
               <Counter
                 icon={faGithub}
-                value={40}
+                value={45}
                 text="Github Repositories"
                 symbol="+"
                 duration={3}
