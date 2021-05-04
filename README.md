@@ -14,7 +14,7 @@ This website is portfolio showcasing my projects and my skills I have learned th
 
 
 ## How to Use
-* Users clink on link to website and scoll through to see projects, languages and technologies learned, and learn a little bit about me.
+* Users click on link to website and scoll through to see projects, languages and technologies learned, and learn a little bit about me.
 
 
 
