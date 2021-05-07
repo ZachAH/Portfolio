@@ -3,9 +3,11 @@ import Particles from 'react-particles-js';
 import Progress from 'components/progress'
 import { Row, Col } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin,  } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faYahoo,   } from '@fortawesome/free-brands-svg-icons'
+import { faAddressCard } from '@fortawesome/free-solid-svg-icons'
 import ThemeContext from '../../context'
 import './styles.scss'
+
 
 class Hero extends React.Component {
 
@@ -27,6 +29,7 @@ class Hero extends React.Component {
                             <div className="social social_icons">
                                 <FontAwesomeIcon icon={faGithub} className="social_icon" onClick={() => window.open('https://github.com/ZachAH')}/>
                                 <FontAwesomeIcon icon={faLinkedin} className="social_icon" onClick={() => window.open('https://linkedin.com/in/zach-howell-189118210/') } />
+                                <FontAwesomeIcon icon={faAddressCard} className="social_icon" onClick={() => window.open("mailto:zacharyWD91@yahoo.com")}/>
                                 
                            
 
