@@ -204,7 +204,7 @@ export default props => (
                     id
                     title
                     category
-                    url
+                    externalUrl
                     image {
                       childImageSharp {
                         fluid(maxWidth: 2000, maxHeight: 2000) {
