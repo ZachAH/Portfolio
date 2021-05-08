@@ -90,7 +90,7 @@ class Contact extends React.Component {
                         <AnimationContainer delay={250} animation="fadeInUp fast">
                         <div className="submit">
                             <button className={`hover-button ${this.state.error ? "error" : ""}`} onClick={() => this.submit()}>
-                                <span>Send Message</span>
+                                <span onClick={() => window.open("mailto:zacharyWD91@yahoo.com")}>Send Message</span>
                             </button>
                         </div>
                         </AnimationContainer>
