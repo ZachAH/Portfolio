@@ -89,9 +89,9 @@ class Services extends React.Component {
               <div className="icon">
                 <FontAwesomeIcon icon={faReact} />
               </div>
-              <h4>Front-end React</h4>
+              <h4>React</h4>
               <p>
-               Utilize React frameworks and JSX to build fast, user intuitive web applications.
+               Utilize state, hooks, and the component lifecycle methods to build fast, user intuitive web applications.
               </p>
             </AnimationContainer>
           </Col>
@@ -122,9 +122,9 @@ class Services extends React.Component {
               <div className="icon">
                 <FontAwesomeIcon icon={faPencilRuler} className="solid" />
               </div>
-              <h4>UI/UX Design</h4>
+              <h4>SCSS/CSS</h4>
               <p>
-                Using my front and back-end langauges and technologies I have built applications with great UX and UI for users.
+                Using advanced sass and css I create beautiful, interactive, and creative applications.
               </p>
             </AnimationContainer>
           </Col>
