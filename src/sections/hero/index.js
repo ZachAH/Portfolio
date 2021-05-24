@@ -39,6 +39,11 @@ class Hero extends React.Component {
                   <span>Download CV</span>
                 </a>  
               </button>
+              <button className="hover-button" >
+                <a  onClick={() => window.open("mailto:zacharyWD91@yahoo.com")}>
+                  <span>Email Me</span>
+                </a>  
+              </button>
             </div>
             {this.icons()}
           </Col>
